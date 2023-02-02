@@ -357,8 +357,8 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrI-hH-esg">
-                                <rect key="frame" x="20" y="192" width="353" height="119.66666666666669"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="50" translatesAutoresizingMaskIntoConstraints="NO" id="wrI-hH-esg">
+                                <rect key="frame" x="20" y="118.99999999999999" width="353" height="192.66666666666663"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -367,11 +367,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AzZ-8w-jbd" secondAttribute="trailing" constant="20" id="7ks-EX-L5U"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AzZ-8w-jbd" secondAttribute="trailing" priority="900" constant="20" id="7ks-EX-L5U"/>
                             <constraint firstItem="AzZ-8w-jbd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="92X-pC-gcu"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wrI-hH-esg" secondAttribute="trailing" constant="20" id="I1D-DM-hUN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wrI-hH-esg" secondAttribute="trailing" priority="900" constant="20" id="I1D-DM-hUN"/>
+                            <constraint firstItem="wrI-hH-esg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="Ri5-GD-1Ch"/>
                             <constraint firstItem="AzZ-8w-jbd" firstAttribute="top" secondItem="wrI-hH-esg" secondAttribute="bottom" constant="40" id="SjY-JP-WZd"/>
-                            <constraint firstItem="wrI-hH-esg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ssf-4a-3sm"/>
+                            <constraint firstItem="wrI-hH-esg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" priority="900" constant="20" id="Ssf-4a-3sm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AzZ-8w-jbd" secondAttribute="bottom" constant="20" id="f15-g1-qBj"/>
                         </constraints>
                     </view>
