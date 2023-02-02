@@ -101,6 +101,10 @@
 			children = (
 				40D43883298B482200D7D411 /* AppDelegate.swift */,
 				40D43885298B482200D7D411 /* SceneDelegate.swift */,
+				40D43887298B482200D7D411 /* ViewController.swift */,
+				40D43889298B482200D7D411 /* Main.storyboard */,
+				40D4388E298B482300D7D411 /* LaunchScreen.storyboard */,
+				40D43891298B482300D7D411 /* Info.plist */,
 				40D438B6298B485700D7D411 /* View */,
 				40D438B5298B484A00D7D411 /* Controller */,
 				40D438B3298B483000D7D411 /* Model */,
@@ -162,7 +166,6 @@
 		40D438B8298B487400D7D411 /* Supporting File */ = {
 			isa = PBXGroup;
 			children = (
-				40D43891298B482300D7D411 /* Info.plist */,
 			);
 			path = "Supporting File";
 			sourceTree = "<group>";
@@ -170,7 +173,6 @@
 		40D438B9298B48A900D7D411 /* Lunch */ = {
 			isa = PBXGroup;
 			children = (
-				40D4388E298B482300D7D411 /* LaunchScreen.storyboard */,
 			);
 			path = Lunch;
 			sourceTree = "<group>";
@@ -178,7 +180,6 @@
 		40D438BA298B48BB00D7D411 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				40D43889298B482200D7D411 /* Main.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -186,7 +187,6 @@
 		40D438BB298B48D600D7D411 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				40D43887298B482200D7D411 /* ViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
